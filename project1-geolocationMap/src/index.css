@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+}
+
+.textBox {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.textBox > div {
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: calc(100vh - 3rem);
+}
